@@ -1,0 +1,156 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  
+  /* Modern Light Theme - Carolina Blue & Pastel Palette */
+  --background: #FFFFFF;
+  --background-elevated: #F8FAFC;
+  --background-glass: rgba(255, 255, 255, 0.7);
+  
+  --foreground: #1E293B;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+  
+  /* Carolina Blue & Pastel Accents */
+  --accent: #75A6D4; /* Carolina Blue */
+  --accent-glow: rgba(117, 166, 212, 0.4);
+  --accent-light: #BAE6FD; /* Pastel Blue */
+  --accent-blue: #38BDF8;
+  
+  /* Gradient: Soft Pastel Blue to White */
+  --gradient-start: #E0F2FE;
+  --gradient-end: #FFFFFF;
+  
+  --glass: rgba(255, 255, 255, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-hover: rgba(255, 255, 255, 0.8);
+  
+  --border: #E2E8F0;
+  
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  
+  --radius: 1.25rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-elevated: var(--background-elevated);
+  --color-background-glass: var(--background-glass);
+  
+  --color-foreground: var(--foreground);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  
+  --color-accent: var(--accent);
+  --color-accent-glow: var(--accent-glow);
+  --color-accent-light: var(--accent-light);
+  --color-accent-blue: var(--accent-blue);
+  
+  --color-gradient-start: var(--gradient-start);
+  --color-gradient-end: var(--gradient-end);
+  
+  --color-glass: var(--glass);
+  --color-glass-border: var(--glass-border);
+  --color-glass-hover: var(--glass-hover);
+  
+  --color-border: var(--border);
+  
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 8px);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-white text-slate-900;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    position: relative;
+    letter-spacing: -0.01em;
+  }
+  
+  /* Light Pastel Background */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    background: radial-gradient(circle at 50% 0%, #E0F2FE 0%, transparent 60%),
+                radial-gradient(circle at 80% 20%, #F0F9FF 0%, transparent 50%);
+    opacity: 0.6;
+  }
+
+  html {
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+  }
+
+  h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--font-weight-bold);
+    line-height: 1;
+    letter-spacing: -0.04em;
+    @apply text-slate-900;
+  }
+
+  h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--font-weight-bold);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    @apply text-slate-900;
+  }
+
+  h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--font-weight-bold);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    @apply text-slate-900;
+  }
+
+  p, button, a, div {
+    font-family: 'Inter', sans-serif;
+    font-weight: var(--font-weight-normal);
+  }
+  
+  /* Glassmorphism */
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  }
+  
+  .glass-panel:hover {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: rgba(117, 166, 212, 0.3);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
+  }
+
+  /* Liquid Glass Display */
+  .liquid-glass {
+    background: linear-gradient(180deg, rgba(255,255,255,0.4) 0%, rgba(224, 242, 254, 0.6) 100%);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.05);
+  }
+
+  /* Blue Fade at Bottom */
+  .fade-blue-bottom {
+    background: linear-gradient(to bottom, transparent 0%, #E0F2FE 100%);
+  }
+}
