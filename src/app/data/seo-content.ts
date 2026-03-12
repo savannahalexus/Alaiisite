@@ -258,5 +258,20 @@ export const blogData: Record<string, { title: string; description: string; h1: 
     title: "All-in-One App Builder for Entrepreneurs | Replace Your Software Stack - alaii",
     description: "Entrepreneurs are replacing their entire software stack with one AI-powered app builder.",
     h1: "The All-in-One App Builder for Entrepreneurs"
+  },
+  "stop-losing-clients-no-shows": {
+    title: "Stop Losing Clients to No-Shows: AI Booking for Beauty Pros | alaii",
+    description: "No-shows cost beauty professionals thousands every year. Learn how AI booking assistants are helping barbers, stylists, and nail techs fill every slot and grow their business.",
+    h1: "Stop Losing Clients to No-Shows: How AI is Changing the Game for Beauty Pros"
+  },
+  "best-booking-app-for-barbers-2026": {
+    title: "Best Booking App for Barbers in 2026 | alaii",
+    description: "Find the best booking app for your barbershop. Compare features, pricing, and see why independent barbers are switching to AI-powered scheduling.",
+    h1: "The Best Booking App for Barbers in 2026: A Complete Guide"
+  },
+  "nail-tech-business-guide": {
+    title: "How to Build a $100K Nail Tech Business | alaii",
+    description: "Complete guide for nail technicians to grow from side hustle to six figures. Booking, pricing, marketing, and client retention strategies.",
+    h1: "How to Build a $100K Nail Tech Business in 2026"
   }
 };

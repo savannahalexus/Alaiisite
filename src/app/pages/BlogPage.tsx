@@ -108,8 +108,98 @@ export function BlogPage() {
               </>
             )}
 
-            {/* Default/Generic Fallback for other slugs or if specific content isn't matched above (though we covered the main ones requested in detail) */}
-            {(!['ai-app-builder-for-small-businesses', 'all-in-one-app-builder-for-entrepreneurs'].includes(slug || '')) && (
+            {slug === 'stop-losing-clients-no-shows' && (
+              <>
+                <p className="lead">If you're a barber, hair stylist, nail tech, or esthetician, you already know the pain. A client books a 2pm slot. You turn down two other requests for that time. 2pm rolls around… no client. No text. No call. Just an empty chair and lost income.</p>
+                <img src={appMockup} alt="AI Booking Assistant" className="rounded-2xl shadow-lg my-10 bg-slate-50 border border-slate-100" />
+                
+                <h2>The Real Cost of No-Shows</h2>
+                <p>The average beauty professional loses <strong>$5,000–$15,000 per year</strong> to no-shows. For solo practitioners, that's rent money. That's the difference between surviving and thriving.</p>
+                <p>It's not that your clients don't care. Life gets busy. People forget. They double-book themselves. They feel awkward canceling so they just... don't show up.</p>
+                
+                <h2>Why Text Messages Aren't Enough</h2>
+                <p>Most independent beauty pros are still managing their entire business through text messages and Instagram DMs. There's no system. No automated reminders. No way to fill a cancelled slot in 30 minutes.</p>
+                
+                <h2>How AI Booking Assistants Fix This</h2>
+                <ul>
+                  <li><strong>Automatic text reminders</strong> — 48 hours, 24 hours, and 2 hours before every appointment</li>
+                  <li><strong>Instant waitlist filling</strong> — client cancels? AI contacts your waitlist and fills the slot automatically</li>
+                  <li><strong>24/7 booking</strong> — clients book through your own branded app anytime, even at midnight</li>
+                  <li><strong>Pattern detection</strong> — AI flags repeat no-show clients before they cost you more money</li>
+                </ul>
+
+                <h2>The Numbers Don't Lie</h2>
+                <p>When beauty professionals switch from manual booking to an AI-powered system:</p>
+                <ul>
+                  <li><strong>No-shows drop 40-60%</strong> (automated reminders are that powerful)</li>
+                  <li><strong>Cancelled slots get filled 3x faster</strong></li>
+                  <li><strong>You save 5-10 hours per week</strong> on scheduling</li>
+                  <li><strong>Revenue goes up 15-25%</strong> from recovered no-shows alone</li>
+                </ul>
+
+                <h2>Who Is This For?</h2>
+                <p>This isn't for big chains with front desk staff and enterprise software budgets. This is for barbers running their own chair, hair stylists renting a booth, nail technicians building their clientele, estheticians and lash artists going independent, personal trainers managing private clients.</p>
+                <p>If you're a one-person operation juggling clients, creativity, and business management — AI booking tools were built for you.</p>
+
+                <h2>Getting Started</h2>
+                <p>New apps are emerging that give every solo beauty professional an AI assistant — think of it as a digital front desk that never calls in sick, never forgets to send a reminder, and works 24/7.</p>
+                <p><strong>Your talent fills the chair. AI keeps it full.</strong></p>
+              </>
+            )}
+
+            {slug === 'best-booking-app-for-barbers-2026' && (
+              <>
+                <p className="lead">As a barber, your phone is your business. But managing bookings through DMs, texts, and walk-ins is costing you money every single day. Here's how to fix that.</p>
+                <img src={appMockup} alt="Barber Booking App" className="rounded-2xl shadow-lg my-10 bg-slate-50 border border-slate-100" />
+                
+                <h2>What Every Barber Needs in a Booking App</h2>
+                <ul>
+                  <li><strong>Automatic reminders</strong> — Cut no-shows by 50% without lifting a finger</li>
+                  <li><strong>Online booking 24/7</strong> — Clients book while you're cutting, sleeping, or living your life</li>
+                  <li><strong>Your own brand</strong> — Not a marketplace where you compete with every barber in town</li>
+                  <li><strong>Affordable pricing</strong> — You're a solo operator, not a Fortune 500</li>
+                  <li><strong>Waitlist management</strong> — Fill cancelled slots instantly</li>
+                </ul>
+
+                <h2>The Problem with Most Booking Apps</h2>
+                <p>Most booking platforms were built for big salons and then dumbed down for independents. You're paying for features you'll never use while missing the basics that actually matter — like an AI that texts your clients so you don't have to.</p>
+
+                <h2>What to Look For in 2026</h2>
+                <p>The game has changed. AI-powered booking assistants don't just manage your calendar — they actively grow your business. They fill empty slots, bring in new clients, and handle the back-and-forth so you can focus on what you do best: cutting hair.</p>
+                <p>Look for something built specifically for independent barbers. Not a one-size-fits-all platform. Not enterprise software with a "lite" plan. A tool that understands your hustle.</p>
+
+                <h2>The Bottom Line</h2>
+                <p>Every hour you spend managing texts and DMs is an hour you're not cutting. Every no-show is money gone. The right booking app pays for itself in the first week.</p>
+              </>
+            )}
+
+            {slug === 'nail-tech-business-guide' && (
+              <>
+                <p className="lead">The nail industry is booming — and the technicians who treat their craft like a real business are the ones hitting six figures. Here's how to join them.</p>
+                <img src={appMockup} alt="Nail Tech Business" className="rounded-2xl shadow-lg my-10 bg-slate-50 border border-slate-100" />
+                
+                <h2>Step 1: Get Your Pricing Right</h2>
+                <p>Most nail techs undercharge. If you're doing a full set for $35 in a major city, you're leaving money on the table. Research your market, factor in your time and materials, and price for profit — not just survival.</p>
+
+                <h2>Step 2: Build a Booking System from Day One</h2>
+                <p>The biggest mistake new nail techs make: managing everything through Instagram DMs. It works when you have 5 clients. It falls apart at 50. Get a proper booking system early — one that sends automatic reminders and lets clients book 24/7.</p>
+
+                <h2>Step 3: Your Portfolio is Your Marketing</h2>
+                <p>Take before-and-after photos of every single set. Good lighting, clean backgrounds. This content is your best marketing tool. Post it everywhere. Let your work speak.</p>
+
+                <h2>Step 4: Eliminate No-Shows</h2>
+                <p>No-shows can kill a nail tech's income. A full set takes 2+ hours — that's a massive loss when someone doesn't show up. Automated reminders cut no-shows by 40-60%. Deposit requirements handle the rest.</p>
+
+                <h2>Step 5: Retain and Grow</h2>
+                <p>Getting new clients is expensive. Keeping existing ones is where the real money is. An AI assistant can automatically remind clients to rebook, send birthday messages, and keep your chair full without you spending hours on your phone.</p>
+
+                <h2>The Path to $100K</h2>
+                <p>At $75 average ticket, you need ~1,334 appointments per year. That's about 26 per week, or ~5 per day. Totally doable with the right systems keeping your book full and your no-show rate low.</p>
+              </>
+            )}
+
+            {/* Default/Generic Fallback for other slugs or if specific content isn't matched above */}
+            {(!['ai-app-builder-for-small-businesses', 'all-in-one-app-builder-for-entrepreneurs', 'stop-losing-clients-no-shows', 'best-booking-app-for-barbers-2026', 'nail-tech-business-guide'].includes(slug || '')) && (
                <>
                  <p className="lead">
                    In the digital age, your business is defined by your software. If you're using the same generic tools as your competitors, you're commodities. 
