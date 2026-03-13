@@ -273,5 +273,10 @@ export const blogData: Record<string, { title: string; description: string; h1: 
     title: "How to Build a $100K Nail Tech Business | alaii",
     description: "Complete guide for nail technicians to grow from side hustle to six figures. Booking, pricing, marketing, and client retention strategies.",
     h1: "How to Build a $100K Nail Tech Business in 2026"
+  },
+  "solo-esthetician-business-guide-2026": {
+    title: "How to Start a Solo Esthetician Business in 2026 | Complete Guide | alaii",
+    description: "Everything you need to start and grow a solo esthetician business in 2026. Licensing, pricing, booking systems, client retention, and the AI tools that make it possible.",
+    h1: "How to Start a Solo Esthetician Business in 2026: The Complete Guide"
   }
 };

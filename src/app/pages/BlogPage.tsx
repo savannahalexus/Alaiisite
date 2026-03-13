@@ -198,8 +198,83 @@ export function BlogPage() {
               </>
             )}
 
+            {slug === 'solo-esthetician-business-guide-2026' && (
+              <>
+                <p className="lead">Going solo as an esthetician is one of the best career moves you can make — if you do it right. No more splitting commissions. No more someone else's schedule. Just you, your skills, and a business that's 100% yours.</p>
+                <img src={appMockup} alt="Solo Esthetician Business" className="rounded-2xl shadow-lg my-10 bg-slate-50 border border-slate-100" />
+
+                <h2>Why 2026 Is the Best Time to Go Solo</h2>
+                <p>The beauty industry is shifting. Clients want personalized experiences, not assembly-line treatments. Solo estheticians who build genuine relationships with their clients are winning — and the technology to run a one-person business has never been more affordable or powerful.</p>
+                <p>AI tools now handle the stuff that used to require a front desk: booking, reminders, waitlist management, even client re-engagement. You can run a professional operation from a single treatment room.</p>
+
+                <h2>Step 1: Get Licensed and Insured</h2>
+                <p>Before anything else, make sure your licensing is current in your state. Requirements vary, but most states require 600-1,500 hours of training and a state board exam. Once licensed:</p>
+                <ul>
+                  <li><strong>Professional liability insurance</strong> — non-negotiable. ASCP and AHP both offer affordable plans starting around $200/year.</li>
+                  <li><strong>Business license</strong> — file with your city or county. Usually under $100.</li>
+                  <li><strong>LLC formation</strong> — protect your personal assets. Most states let you file online for $50-200.</li>
+                </ul>
+
+                <h2>Step 2: Find Your Space</h2>
+                <p>You have options, and each has trade-offs:</p>
+                <ul>
+                  <li><strong>Suite rental</strong> ($800-2,000/month) — Private room in a salon suite complex like Sola or Phenix. Professional, independent, client-friendly.</li>
+                  <li><strong>Booth/room rental in a salon</strong> ($400-1,200/month) — Cheaper but less control over your environment.</li>
+                  <li><strong>Home studio</strong> ($0-500 setup) — Lowest overhead, but check local zoning laws. Some areas prohibit it.</li>
+                  <li><strong>Mobile esthetics</strong> ($0 rent) — You go to the client. Great for building a book fast, tough to scale.</li>
+                </ul>
+
+                <h2>Step 3: Set Up Your Booking System Day One</h2>
+                <p>This is where most solo estheticians make their biggest mistake. They manage everything through Instagram DMs and text messages. It works for 10 clients. It completely falls apart at 50.</p>
+                <p>From day one, get a booking system that:</p>
+                <ul>
+                  <li>Lets clients book 24/7 (people think about facials at 11pm, not during business hours)</li>
+                  <li>Sends automatic text reminders (48h and 2h before)</li>
+                  <li>Manages a waitlist that fills cancelled slots automatically</li>
+                  <li>Looks professional and branded to your business</li>
+                </ul>
+                <p>AI-powered booking assistants are the new standard. They cost a fraction of what you'd pay for a full scheduling platform, and they do more — including re-engaging clients who haven't booked in a while.</p>
+
+                <h2>Step 4: Price for Profit, Not Survival</h2>
+                <p>New solo estheticians consistently underprice. Here's a simple framework:</p>
+                <ul>
+                  <li>Calculate your monthly overhead (rent, products, insurance, software)</li>
+                  <li>Decide your target monthly income</li>
+                  <li>Add them together, divide by 20 working days, then by 5-6 clients/day</li>
+                  <li>That's your minimum average ticket price</li>
+                </ul>
+                <p>If your city's average facial is $100 and you're charging $60 because you're "new" — stop. Your training is the same. Your products are the same. Price reflects value, not experience level.</p>
+
+                <h2>Step 5: Build Your Client Base</h2>
+                <p>The fastest ways to fill your book as a solo esthetician:</p>
+                <ul>
+                  <li><strong>Instagram portfolio</strong> — Before/after photos of every treatment. This is your #1 marketing tool.</li>
+                  <li><strong>Google Business Profile</strong> — Free, and it's how local clients find you. Get reviews from your first 10 clients.</li>
+                  <li><strong>Referral program</strong> — Give existing clients $10 off for every referral. Word of mouth is queen in esthetics.</li>
+                  <li><strong>Local networking</strong> — Connect with hair stylists, nail techs, and makeup artists. Cross-referrals are gold.</li>
+                </ul>
+
+                <h2>Step 6: Eliminate No-Shows</h2>
+                <p>A single no-show on a 90-minute facial costs you $100+ in lost revenue. Multiply that across a month and it's devastating for a solo practice.</p>
+                <p>The fix is simple: automated reminders cut no-shows by 40-60%. Add a cancellation policy (24h notice required, or a small fee) and you've solved 90% of the problem. The right booking system handles all of this automatically.</p>
+
+                <h2>Step 7: Retain and Grow</h2>
+                <p>Getting a new client costs 5x more than keeping one. Focus on retention:</p>
+                <ul>
+                  <li><strong>Rebook at checkout</strong> — "Your skin will look best if we do this again in 4 weeks. Want me to lock that in?"</li>
+                  <li><strong>Automated re-engagement</strong> — AI can text clients who haven't booked in 6+ weeks</li>
+                  <li><strong>Birthday offers</strong> — Simple gesture, huge impact on loyalty</li>
+                  <li><strong>Treatment plans</strong> — Position yourself as a skincare partner, not a one-time service</li>
+                </ul>
+
+                <h2>The Bottom Line</h2>
+                <p>Starting a solo esthetician business in 2026 is more accessible than ever. The barrier isn't talent — it's systems. Get your booking, reminders, and client management automated from day one, and you can focus on what you actually love: transforming skin and building genuine client relationships.</p>
+                <p><strong>Your hands do the magic. Let AI handle the business.</strong></p>
+              </>
+            )}
+
             {/* Default/Generic Fallback for other slugs or if specific content isn't matched above */}
-            {(!['ai-app-builder-for-small-businesses', 'all-in-one-app-builder-for-entrepreneurs', 'stop-losing-clients-no-shows', 'best-booking-app-for-barbers-2026', 'nail-tech-business-guide'].includes(slug || '')) && (
+            {(!['ai-app-builder-for-small-businesses', 'all-in-one-app-builder-for-entrepreneurs', 'stop-losing-clients-no-shows', 'best-booking-app-for-barbers-2026', 'nail-tech-business-guide', 'solo-esthetician-business-guide-2026'].includes(slug || '')) && (
                <>
                  <p className="lead">
                    In the digital age, your business is defined by your software. If you're using the same generic tools as your competitors, you're commodities. 
