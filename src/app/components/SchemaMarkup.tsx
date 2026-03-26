@@ -93,7 +93,7 @@ export function SchemaMarkup() {
         "name": "What happens after the founding member period?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You're locked in at $29/month forever as a founding member. New customers after you pay $49/month or $100/month for pro."
+          "text": "You're locked in at $10/month forever as a founding member. New customers after you pay $14/month."
         }
       },
       {
@@ -106,7 +106,7 @@ export function SchemaMarkup() {
       },
       {
         "@type": "Question",
-        "name": "What's included in Ali Pro?",
+        "name": "What's included in ALI Growth?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "AI assistant that handles client communication, scheduling recommendations, automated follow-ups, and smart business insights. It's like having a virtual assistant for $19/month."

@@ -16,9 +16,8 @@ const plans = [
       "Zero transaction fees",
       "Unlimited clients",
       "Unlimited team users",
-      "Ali AI Assistant included",
-      "Priority support",
-      "Add Ali Pro for +$19/mo"
+      "ALI Growth Agent included",
+      "Priority support"
     ],
     buttonText: "Claim Founding Price Now",
     highlight: true,
@@ -168,13 +167,13 @@ export function Pricing() {
             </div>
 
             <div className="mb-6 flex items-baseline">
-              <span className="text-5xl font-bold text-slate-600">$50</span>
+              <span className="text-5xl font-bold text-slate-600">$14</span>
               <span className="text-slate-400 ml-1">/month</span>
             </div>
 
             <div className="bg-white/60 backdrop-blur-sm border border-slate-200 rounded-xl p-4 mb-6">
               <p className="text-sm text-slate-600 text-center">
-                Don't miss out on <span className="font-bold text-[#75A6D4]">$40/month savings</span>
+                Don't miss out on <span className="font-bold text-[#75A6D4]">founding member pricing</span>
               </p>
             </div>
 
@@ -195,14 +194,15 @@ export function Pricing() {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <Sparkles className="w-5 h-5 text-purple-600" />
-              <h3 className="font-bold text-lg text-purple-900">Ali Pro Add-On</h3>
+              <h3 className="font-bold text-lg text-purple-900">ALI Growth Agent</h3>
             </div>
             <p className="text-purple-700 text-sm max-w-md">
-              Add AI superpowers to any plan. Automated scheduling, client communication, smart recommendations, and follow-ups.
+              Your AI Growth Agent — creates marketing content, handles client outreach, fills empty slots, sends follow-ups, and grows your business on autopilot. Included with every plan.
             </p>
           </div>
           <div className="text-center md:text-right flex-shrink-0">
-             <p className="text-2xl font-bold text-purple-900">+$19<span className="text-sm font-normal text-purple-600">/mo</span></p>
+             <p className="text-2xl font-bold text-purple-900">$14<span className="text-sm font-normal text-purple-600">/mo</span></p>
+             <p className="text-xs text-purple-500 mt-1">Included with your plan</p>
           </div>
         </div>
 

@@ -33,15 +33,15 @@ const faqs = [
   },
   {
     question: "What happens after the founding member period?",
-    answer: "You're locked in at $29/month forever as a founding member. New customers after you pay $49/month or $100/month for pro."
+    answer: "You're locked in at $10/month forever as a founding member. New customers after you pay $14/month."
   },
   {
     question: "Can I cancel anytime?",
     answer: "Yes. No contracts. Cancel anytime. Your apps stay live for 30 days after cancellation."
   },
   {
-    question: "What's included in Ali Pro?",
-    answer: "AI assistant that handles client communication, scheduling recommendations, automated follow-ups, and smart business insights. It's like having a virtual assistant for $19/month."
+    question: "What's included in ALI Growth?",
+    answer: "ALI is your AI Growth Agent — it handles client communication, creates marketing content, sends automated follow-ups, fills empty slots, and gives you smart business insights. Included at $14/month."
   }
 ];
 
