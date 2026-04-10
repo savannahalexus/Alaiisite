@@ -1,0 +1,2 @@
+# Redirect booking links to web app
+/s/*  https://web.alaii.app/s/:splat  301
